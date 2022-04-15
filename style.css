@@ -154,3 +154,11 @@ body{
     justify-content: flex-start;
 }
 
+@media (max-width: 800px){
+    .card, .card-trilha{
+        display: block;
+        width: 80vw;
+        height: 40vh;
+    }
+
+}
