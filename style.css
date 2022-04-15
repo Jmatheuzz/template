@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.bem-vindo {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bem-vindo h1 {
+    width: 100%;
+}
+
+
+.cursos, .trilhas {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.curso {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ver-mais {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(232, 197, 0);
+    cursor: pointer;
+}
+
+.ver-menos {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+.card {
+    width: 20vw;
+    height: 50vh;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    box-shadow: 0 0 1.5px rgb(128, 127, 127);
+
+}
+
+
+.card-off {
+   display: none;
+}
+
+.info {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.info {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card .info h2, .card-trilha .info-trilha h2 {
+    height: 5px;
+}
+
+.card-trilha .info-trilha span{
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.card-text-color-1 {
+    color: rgb(28, 28, 255);
+}
+.card-text-color-2 {
+    color: rgb(222, 192, 25);
+}
+.card-text-color-3 {
+    color: rgb(36, 101, 36);
+}
+
+.card-text-weight {
+    font-weight: 600;
+}
+
+.trilhas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.trilha {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-trilha {
+    width: 40vw;
+    height: 35vh;
+    margin: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    box-shadow: 0 0 1.5px rgb(128, 127, 127);
+}
+
+.info-trilha {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
