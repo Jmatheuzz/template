@@ -87,21 +87,13 @@ body{
 }
 
 .info {
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-
-.info {
-    margin-left: 10px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
 .card .info h2, .card-trilha .info-trilha h2 {
     height: 5px;
@@ -152,17 +144,22 @@ body{
 }
 
 .info-trilha {
-    width: 100%;
     text-align: left;
     display: flex;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    flex-direction: column;
     justify-content: flex-start;
+}
+
+.info-trilha h2 {
+    margin-top: 0;
 }
 
 
 
 @media (max-width: 800px){
     .card, .card-trilha{
-        display: block;
         width: 80vw;
         height: 40vh;
     }
